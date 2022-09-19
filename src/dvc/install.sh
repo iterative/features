@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+set -ue
 
 echo "Activating feature 'dvc'"
 

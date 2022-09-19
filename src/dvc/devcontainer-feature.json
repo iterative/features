@@ -1,18 +1,7 @@
 {
-    "name": "My Favorite Color",
-    "id": "color",
-    "version": "1.0.3",
-    "description": "A feature to remind you of your favorite color",
-    "options": {
-        "favorite": {
-            "type": "string",
-            "enum": [
-                "red",
-                "gold",
-                "green"
-            ],
-            "default": "red",
-            "description": "Choose your favorite color."
-        }
-    }
+    "name": "Data Version Control",
+    "id": "dvc",
+    "version": "1.0.0",
+    "description": "Installs DVC CLI deb package",
+    "options": {}
 }

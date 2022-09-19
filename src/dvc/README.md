@@ -1,13 +1,26 @@
 
-# Install DVC
+# Data Version Control (dvc)
 
-Install DVC on Ubuntu
+Installs DVC CLI deb package
 
 ## Example Usage
 
 ```json
 "features": {
-        "ghcr.io/iterative/features/dvc:1",
+        "ghcr.io/iterative/features/dvc:1": {
+            "version": "latest"
+        }
 }
 ```
 
+## Options
+
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/iterative/features/blob/main/src/dvc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

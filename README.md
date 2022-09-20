@@ -17,7 +17,7 @@ See the relevant feature's README for supported options.
 "name": "example-get-started",
 "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
 "features": {
-    "ghcr.io/iterative/features/dvc:1"
+    "ghcr.io/iterative/features/dvc:1": {}
 }
 ```
 

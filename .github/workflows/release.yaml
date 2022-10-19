@@ -26,10 +26,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cml ci\
-            --user-name=github-actions\
-            --user-email=github-actions@github.com
-          cml pr */**/README.md\
-            --branch="automated-documentation-update-$GITHUB_RUN_ID"\
-            --{title,message,body}="Automated documentation update"\
+          cml pr create */**/README.md \
+            --user-name=github-actions[bot] \
+            --user-email=41898282+github-actions[bot]@users.noreply.github.com \
+            --branch="automated-documentation-update-$GITHUB_RUN_ID" \
+            --{title,message,body}="Automated documentation update" \
             --skip-ci

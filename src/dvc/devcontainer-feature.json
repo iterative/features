@@ -1,7 +1,7 @@
 {
     "name": "Data Version Control",
     "id": "dvc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installs DVC CLI deb package",
     "options": {}
 }

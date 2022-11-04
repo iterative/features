@@ -1,8 +1,7 @@
 {
     "name": "Data Version Control",
     "id": "dvc",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Installs DVC CLI deb package",
-    "options": {},
-    "postCreateCommand": "GIT_CONFIG_PATH=/usr/local/etc/gitconfig; if [ ${CODESPACES:-false} = true -a -f $GIT_CONFIG_PATH ]; then ln -s $GIT_CONFIG_PATH /etc/gitconfig || true; fi" 
+    "options": {}
 }

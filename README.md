@@ -1,4 +1,4 @@
-# Machine Learning Container Features
+# Container Features for Machine Learning
 
 A set of simple and reusable 
 [development container 'features'](https://github.com/devcontainers/features)

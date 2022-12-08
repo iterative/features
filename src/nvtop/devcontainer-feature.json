@@ -1,0 +1,7 @@
+{
+    "name": "nvtop - GPUs Process monitoring",
+    "id": "nvtop",
+    "version": "1.0.0",
+    "description": "Installs nvtop utility",
+    "options": {}
+}

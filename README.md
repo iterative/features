@@ -1,9 +1,10 @@
-# Development Container Features
+# Machine Learning Container Features
 
-A set of simple and reusable Iterative tools-specific 
-[development container 'features'](https://github.com/devcontainers/features).
-E.g. to quickly add DVC to a development container, install
-[nvtop](https://github.com/Syllo/nvtop) for GPUs monitoring.
+A set of simple and reusable 
+[development container 'features'](https://github.com/devcontainers/features)
+for Machine Learning and Data Science.
+E.g. to quickly add [DVC](https://dvc.org) to a development container,
+install [nvtop](https://github.com/Syllo/nvtop) for GPUs monitoring, etc.
 
 
 ## Usage

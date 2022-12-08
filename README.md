@@ -2,7 +2,8 @@
 
 A set of simple and reusable Iterative tools-specific 
 [development container 'features'](https://github.com/devcontainers/features).
-E.g. to quickly add DVC to a development container.
+E.g. to quickly add DVC to a development container, install
+[nvtop](https://github.com/Syllo/nvtop) for GPUs monitoring.
 
 
 ## Usage
@@ -17,7 +18,8 @@ See the relevant feature's README for supported options.
 "name": "example-get-started",
 "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
 "features": {
-    "ghcr.io/iterative/features/dvc:1": {}
+    "ghcr.io/iterative/features/dvc:1": {},
+    "ghcr.io/iterative/features/nvtop:1": {}
 }
 ```
 

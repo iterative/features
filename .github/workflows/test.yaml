@@ -1,8 +1,6 @@
 name: "CI - Test Features"
 on:
   push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -13,6 +11,7 @@ jobs:
       matrix:
         features: [
            "dvc",
+           "nvtop",
         ]
         baseImage:
           [

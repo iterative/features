@@ -1,15 +1,13 @@
 
-# Data Version Control (dvc)
+# nvtop - GPUs Process monitoring (nvtop)
 
-Installs DVC CLI deb package
+Installs nvtop utility
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/iterative/features/dvc:1": {
-        "version": "latest"
-    }
+    "ghcr.io/iterative/features/nvtop:1": {}
 }
 ```
 
@@ -23,4 +21,4 @@ Installs DVC CLI deb package
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/iterative/features/blob/main/src/dvc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/iterative/features/blob/main/src/nvtop/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

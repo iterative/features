@@ -7,9 +7,7 @@ Installs DVC CLI deb package
 
 ```json
 "features": {
-    "ghcr.io/iterative/features/dvc:1": {
-        "version": "latest"
-    }
+    "ghcr.io/iterative/features/dvc:1": {}
 }
 ```
 

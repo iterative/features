@@ -19,7 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: iterative/setup-cml@v1
+      - uses: iterative/setup-cml@v2.1.0
 
       - name: Create PR for Documentation
         id: push_image_info
